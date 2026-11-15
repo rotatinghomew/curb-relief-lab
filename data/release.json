@@ -1,0 +1,947 @@
+{
+  "revision": "release-1",
+  "cutoff": "2026-11-14T23:59:59+08:00",
+  "tables": {
+    "trips": [
+      {
+        "trip_id": "t0",
+        "vehicle_id": "v0",
+        "region": "north",
+        "entered": "2026-11-10T00:00:00+08:00",
+        "left": null,
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t1",
+        "vehicle_id": "v1",
+        "region": "east",
+        "entered": "2026-11-10T01:00:00+08:00",
+        "left": "2026-11-10T01:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t2",
+        "vehicle_id": "v2",
+        "region": "south",
+        "entered": "2026-11-10T02:00:00+08:00",
+        "left": "2026-11-10T02:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t3",
+        "vehicle_id": "v3",
+        "region": "west",
+        "entered": "2026-11-10T03:00:00+08:00",
+        "left": "2026-11-10T03:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t4",
+        "vehicle_id": "v4",
+        "region": "north",
+        "entered": "2026-11-10T04:00:00+08:00",
+        "left": "2026-11-10T04:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t5",
+        "vehicle_id": "v5",
+        "region": "east",
+        "entered": "2026-11-10T05:00:00+08:00",
+        "left": "2026-11-10T05:31:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t6",
+        "vehicle_id": "v6",
+        "region": "south",
+        "entered": "2026-11-10T06:00:00+08:00",
+        "left": "2026-11-10T06:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t7",
+        "vehicle_id": "v7",
+        "region": "west",
+        "entered": "2026-11-10T07:00:00+08:00",
+        "left": "2026-11-10T07:16:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t8",
+        "vehicle_id": "v8",
+        "region": "north",
+        "entered": "2026-11-10T08:00:00+08:00",
+        "left": "2026-11-10T08:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t9",
+        "vehicle_id": "v9",
+        "region": "east",
+        "entered": "2026-11-10T09:00:00+08:00",
+        "left": "2026-11-10T18:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t10",
+        "vehicle_id": "v10",
+        "region": "south",
+        "entered": "2026-11-10T10:00:00+08:00",
+        "left": "2026-11-10T10:16:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t11",
+        "vehicle_id": "v11",
+        "region": "west",
+        "entered": "2026-11-10T11:00:00+08:00",
+        "left": "2026-11-10T20:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t12",
+        "vehicle_id": "v12",
+        "region": "north",
+        "entered": "2026-11-10T12:00:00+08:00",
+        "left": "2026-11-10T12:16:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t13",
+        "vehicle_id": "v0",
+        "region": "east",
+        "entered": "2026-11-10T13:00:00+08:00",
+        "left": "2026-11-10T22:10:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t14",
+        "vehicle_id": "v1",
+        "region": "south",
+        "entered": "2026-11-10T14:00:00+08:00",
+        "left": "2026-11-10T17:00:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t15",
+        "vehicle_id": "v2",
+        "region": "west",
+        "entered": "2026-11-10T15:00:00+08:00",
+        "left": "2026-11-10T15:16:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t16",
+        "vehicle_id": "v3",
+        "region": "north",
+        "entered": "2026-11-10T16:00:00+08:00",
+        "left": "2026-11-10T19:00:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t17",
+        "vehicle_id": "v4",
+        "region": "east",
+        "entered": "2026-11-10T17:00:00+08:00",
+        "left": "2026-11-10T17:31:00+08:00",
+        "purpose": "transfer",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t18",
+        "vehicle_id": "v5",
+        "region": "south",
+        "entered": "2026-11-10T18:00:00+08:00",
+        "left": "2026-11-10T21:00:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t19",
+        "vehicle_id": "v6",
+        "region": "west",
+        "entered": "2026-11-10T19:00:00+08:00",
+        "left": "2026-11-10T19:10:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t20",
+        "vehicle_id": "v7",
+        "region": "north",
+        "entered": "2026-11-10T20:00:00+08:00",
+        "left": "2026-11-10T20:16:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t21",
+        "vehicle_id": "v8",
+        "region": "east",
+        "entered": "2026-11-10T21:00:00+08:00",
+        "left": "2026-11-10T21:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t22",
+        "vehicle_id": "v9",
+        "region": "south",
+        "entered": "2026-11-10T22:00:00+08:00",
+        "left": "2026-11-10T22:31:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t23",
+        "vehicle_id": "v10",
+        "region": "west",
+        "entered": "2026-11-10T23:00:00+08:00",
+        "left": null,
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t24",
+        "vehicle_id": "v11",
+        "region": "north",
+        "entered": "2026-11-11T00:00:00+08:00",
+        "left": "2026-11-11T00:31:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t25",
+        "vehicle_id": "v12",
+        "region": "east",
+        "entered": "2026-11-11T01:00:00+08:00",
+        "left": "2026-11-11T01:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t26",
+        "vehicle_id": "v0",
+        "region": "south",
+        "entered": "2026-11-11T02:00:00+08:00",
+        "left": "2026-11-11T02:16:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t27",
+        "vehicle_id": "v1",
+        "region": "west",
+        "entered": "2026-11-11T03:00:00+08:00",
+        "left": "2026-11-11T03:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t28",
+        "vehicle_id": "v2",
+        "region": "north",
+        "entered": "2026-11-11T04:00:00+08:00",
+        "left": "2026-11-11T04:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t29",
+        "vehicle_id": "v3",
+        "region": "east",
+        "entered": "2026-11-11T05:00:00+08:00",
+        "left": "2026-11-11T08:00:00+08:00",
+        "purpose": "transfer",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t30",
+        "vehicle_id": "v4",
+        "region": "south",
+        "entered": "2026-11-11T06:00:00+08:00",
+        "left": "2026-11-11T15:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t31",
+        "vehicle_id": "v5",
+        "region": "west",
+        "entered": "2026-11-11T07:00:00+08:00",
+        "left": "2026-11-11T16:10:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t32",
+        "vehicle_id": "v6",
+        "region": "north",
+        "entered": "2026-11-11T08:00:00+08:00",
+        "left": "2026-11-11T08:31:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t33",
+        "vehicle_id": "v7",
+        "region": "east",
+        "entered": "2026-11-11T09:00:00+08:00",
+        "left": "2026-11-11T09:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t34",
+        "vehicle_id": "v8",
+        "region": "south",
+        "entered": "2026-11-11T10:00:00+08:00",
+        "left": "2026-11-11T10:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t35",
+        "vehicle_id": "v9",
+        "region": "west",
+        "entered": "2026-11-11T11:00:00+08:00",
+        "left": "2026-11-11T20:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t36",
+        "vehicle_id": "v10",
+        "region": "north",
+        "entered": "2026-11-11T12:00:00+08:00",
+        "left": "2026-11-11T12:16:00+08:00",
+        "purpose": "errand",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t37",
+        "vehicle_id": "v11",
+        "region": "east",
+        "entered": "2026-11-11T13:00:00+08:00",
+        "left": "2026-11-11T13:10:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t38",
+        "vehicle_id": "v12",
+        "region": "south",
+        "entered": "2026-11-11T14:00:00+08:00",
+        "left": "2026-11-11T17:00:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t39",
+        "vehicle_id": "v0",
+        "region": "west",
+        "entered": "2026-11-11T15:00:00+08:00",
+        "left": "2026-11-11T15:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t40",
+        "vehicle_id": "v1",
+        "region": "north",
+        "entered": "2026-11-11T16:00:00+08:00",
+        "left": "2026-11-11T16:31:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t41",
+        "vehicle_id": "v2",
+        "region": "east",
+        "entered": "2026-11-11T17:00:00+08:00",
+        "left": "2026-11-11T17:31:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t42",
+        "vehicle_id": "v3",
+        "region": "south",
+        "entered": "2026-11-11T18:00:00+08:00",
+        "left": "2026-11-11T18:31:00+08:00",
+        "purpose": "errand",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t43",
+        "vehicle_id": "v4",
+        "region": "west",
+        "entered": "2026-11-11T19:00:00+08:00",
+        "left": "2026-11-11T22:00:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t44",
+        "vehicle_id": "v5",
+        "region": "north",
+        "entered": "2026-11-11T20:00:00+08:00",
+        "left": "2026-11-11T20:15:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t45",
+        "vehicle_id": "v6",
+        "region": "east",
+        "entered": "2026-11-11T21:00:00+08:00",
+        "left": "2026-11-12T00:00:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t46",
+        "vehicle_id": "v7",
+        "region": "south",
+        "entered": "2026-11-11T22:00:00+08:00",
+        "left": null,
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t47",
+        "vehicle_id": "v8",
+        "region": "west",
+        "entered": "2026-11-11T23:00:00+08:00",
+        "left": "2026-11-11T23:16:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t48",
+        "vehicle_id": "v9",
+        "region": "north",
+        "entered": "2026-11-12T00:00:00+08:00",
+        "left": "2026-11-12T00:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t49",
+        "vehicle_id": "v10",
+        "region": "east",
+        "entered": "2026-11-12T01:00:00+08:00",
+        "left": "2026-11-12T04:00:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t50",
+        "vehicle_id": "v11",
+        "region": "south",
+        "entered": "2026-11-12T02:00:00+08:00",
+        "left": "2026-11-12T02:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t51",
+        "vehicle_id": "v12",
+        "region": "west",
+        "entered": "2026-11-12T03:00:00+08:00",
+        "left": "2026-11-12T03:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t52",
+        "vehicle_id": "v0",
+        "region": "north",
+        "entered": "2026-11-12T04:00:00+08:00",
+        "left": "2026-11-12T13:10:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t53",
+        "vehicle_id": "v1",
+        "region": "east",
+        "entered": "2026-11-12T05:00:00+08:00",
+        "left": "2026-11-12T08:00:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t54",
+        "vehicle_id": "v2",
+        "region": "south",
+        "entered": "2026-11-12T06:00:00+08:00",
+        "left": "2026-11-12T06:16:00+08:00",
+        "purpose": "errand",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t55",
+        "vehicle_id": "v3",
+        "region": "west",
+        "entered": "2026-11-12T07:00:00+08:00",
+        "left": "2026-11-12T07:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t56",
+        "vehicle_id": "v4",
+        "region": "north",
+        "entered": "2026-11-12T08:00:00+08:00",
+        "left": "2026-11-12T17:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t57",
+        "vehicle_id": "v5",
+        "region": "east",
+        "entered": "2026-11-12T09:00:00+08:00",
+        "left": "2026-11-12T12:00:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t58",
+        "vehicle_id": "v6",
+        "region": "south",
+        "entered": "2026-11-12T10:00:00+08:00",
+        "left": "2026-11-12T10:31:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t59",
+        "vehicle_id": "v7",
+        "region": "west",
+        "entered": "2026-11-12T11:00:00+08:00",
+        "left": "2026-11-12T20:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t60",
+        "vehicle_id": "v8",
+        "region": "north",
+        "entered": "2026-11-12T12:00:00+08:00",
+        "left": "2026-11-12T12:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t61",
+        "vehicle_id": "v9",
+        "region": "east",
+        "entered": "2026-11-12T13:00:00+08:00",
+        "left": "2026-11-12T13:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t62",
+        "vehicle_id": "v10",
+        "region": "south",
+        "entered": "2026-11-12T14:00:00+08:00",
+        "left": "2026-11-12T14:15:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t63",
+        "vehicle_id": "v11",
+        "region": "west",
+        "entered": "2026-11-12T15:00:00+08:00",
+        "left": "2026-11-12T15:16:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t64",
+        "vehicle_id": "v12",
+        "region": "north",
+        "entered": "2026-11-12T16:00:00+08:00",
+        "left": "2026-11-12T16:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t65",
+        "vehicle_id": "v0",
+        "region": "east",
+        "entered": "2026-11-12T17:00:00+08:00",
+        "left": "2026-11-12T17:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t66",
+        "vehicle_id": "v1",
+        "region": "south",
+        "entered": "2026-11-12T18:00:00+08:00",
+        "left": "2026-11-13T03:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t67",
+        "vehicle_id": "v2",
+        "region": "west",
+        "entered": "2026-11-12T19:00:00+08:00",
+        "left": "2026-11-12T19:16:00+08:00",
+        "purpose": "resident",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t68",
+        "vehicle_id": "v3",
+        "region": "north",
+        "entered": "2026-11-12T20:00:00+08:00",
+        "left": "2026-11-12T20:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t69",
+        "vehicle_id": "v4",
+        "region": "east",
+        "entered": "2026-11-12T21:00:00+08:00",
+        "left": null,
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t70",
+        "vehicle_id": "v5",
+        "region": "south",
+        "entered": "2026-11-12T22:00:00+08:00",
+        "left": "2026-11-12T22:31:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t71",
+        "vehicle_id": "v6",
+        "region": "west",
+        "entered": "2026-11-12T23:00:00+08:00",
+        "left": "2026-11-12T23:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t72",
+        "vehicle_id": "v7",
+        "region": "north",
+        "entered": "2026-11-13T00:00:00+08:00",
+        "left": "2026-11-13T00:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t73",
+        "vehicle_id": "v8",
+        "region": "east",
+        "entered": "2026-11-13T01:00:00+08:00",
+        "left": "2026-11-13T01:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t74",
+        "vehicle_id": "v9",
+        "region": "south",
+        "entered": "2026-11-13T02:00:00+08:00",
+        "left": "2026-11-13T02:16:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t75",
+        "vehicle_id": "v10",
+        "region": "west",
+        "entered": "2026-11-13T03:00:00+08:00",
+        "left": "2026-11-13T03:15:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t76",
+        "vehicle_id": "v11",
+        "region": "north",
+        "entered": "2026-11-13T04:00:00+08:00",
+        "left": "2026-11-13T04:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t77",
+        "vehicle_id": "v12",
+        "region": "east",
+        "entered": "2026-11-13T05:00:00+08:00",
+        "left": "2026-11-13T05:15:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t78",
+        "vehicle_id": "v0",
+        "region": "south",
+        "entered": "2026-11-13T06:00:00+08:00",
+        "left": "2026-11-13T06:10:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t79",
+        "vehicle_id": "v1",
+        "region": "west",
+        "entered": "2026-11-13T07:00:00+08:00",
+        "left": "2026-11-13T07:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t80",
+        "vehicle_id": "v2",
+        "region": "north",
+        "entered": "2026-11-13T08:00:00+08:00",
+        "left": "2026-11-13T08:31:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t81",
+        "vehicle_id": "v3",
+        "region": "east",
+        "entered": "2026-11-13T09:00:00+08:00",
+        "left": "2026-11-13T09:31:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t82",
+        "vehicle_id": "v4",
+        "region": "south",
+        "entered": "2026-11-13T10:00:00+08:00",
+        "left": "2026-11-13T10:16:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t83",
+        "vehicle_id": "v5",
+        "region": "west",
+        "entered": "2026-11-13T11:00:00+08:00",
+        "left": "2026-11-13T11:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t84",
+        "vehicle_id": "v6",
+        "region": "north",
+        "entered": "2026-11-13T12:00:00+08:00",
+        "left": "2026-11-13T12:31:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t85",
+        "vehicle_id": "v7",
+        "region": "east",
+        "entered": "2026-11-13T13:00:00+08:00",
+        "left": "2026-11-13T16:00:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t86",
+        "vehicle_id": "v8",
+        "region": "south",
+        "entered": "2026-11-13T14:00:00+08:00",
+        "left": "2026-11-13T14:16:00+08:00",
+        "purpose": "transfer",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t87",
+        "vehicle_id": "v9",
+        "region": "west",
+        "entered": "2026-11-13T15:00:00+08:00",
+        "left": "2026-11-13T15:31:00+08:00",
+        "purpose": "errand",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t88",
+        "vehicle_id": "v10",
+        "region": "north",
+        "entered": "2026-11-13T16:00:00+08:00",
+        "left": "2026-11-13T16:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t89",
+        "vehicle_id": "v11",
+        "region": "east",
+        "entered": "2026-11-13T17:00:00+08:00",
+        "left": "2026-11-13T20:00:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t90",
+        "vehicle_id": "v12",
+        "region": "south",
+        "entered": "2026-11-13T18:00:00+08:00",
+        "left": "2026-11-13T21:00:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t91",
+        "vehicle_id": "v0",
+        "region": "west",
+        "entered": "2026-11-13T19:00:00+08:00",
+        "left": "2026-11-13T19:31:00+08:00",
+        "purpose": "resident",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t92",
+        "vehicle_id": "v1",
+        "region": "north",
+        "entered": "2026-11-13T20:00:00+08:00",
+        "left": null,
+        "purpose": "transfer",
+        "prior_used": null
+      },
+      {
+        "trip_id": "t93",
+        "vehicle_id": "v2",
+        "region": "east",
+        "entered": "2026-11-13T21:00:00+08:00",
+        "left": "2026-11-14T00:00:00+08:00",
+        "purpose": "errand",
+        "prior_used": 1
+      },
+      {
+        "trip_id": "t94",
+        "vehicle_id": "v3",
+        "region": "south",
+        "entered": "2026-11-13T22:00:00+08:00",
+        "left": "2026-11-13T22:15:00+08:00",
+        "purpose": "resident",
+        "prior_used": 0
+      },
+      {
+        "trip_id": "t95",
+        "vehicle_id": "v4",
+        "region": "west",
+        "entered": "2026-11-13T23:00:00+08:00",
+        "left": "2026-11-13T23:10:00+08:00",
+        "purpose": "transfer",
+        "prior_used": 1
+      }
+    ],
+    "policies": [
+      {
+        "policy_id": "current",
+        "grace_minutes": 15,
+        "quota": 1,
+        "deduct_grace": false,
+        "unit_cents": 400,
+        "night_cap_cents": 1000
+      },
+      {
+        "policy_id": "candidate",
+        "grace_minutes": 15,
+        "quota": 2,
+        "deduct_grace": true,
+        "unit_cents": 300,
+        "night_cap_cents": 800
+      }
+    ],
+    "calendar": [
+      {
+        "day": "2026-11-10",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-11",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-12",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-13",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-14",
+        "holiday": true,
+        "quota_bonus": 1
+      },
+      {
+        "day": "2026-11-15",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-16",
+        "holiday": false,
+        "quota_bonus": 0
+      },
+      {
+        "day": "2026-11-17",
+        "holiday": false,
+        "quota_bonus": 0
+      }
+    ]
+  },
+  "settings": {
+    "maximum_refusal_probability": 0.05,
+    "balance_tolerance": 20,
+    "minimum_same_edges": 4,
+    "registration": {
+      "primary_outcome": "awareness_per_eligible",
+      "spillover_exposure": "neighbor_treated_fraction",
+      "maximum_missing_fraction": 0.2
+    },
+    "primary_tables": [
+      "trips",
+      "policies",
+      "calendar"
+    ]
+  }
+}
